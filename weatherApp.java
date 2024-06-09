@@ -44,6 +44,7 @@ public class weatherApp {
                     final String currentTempUnits = tempUnits; // Make a final copy
                     getWeather(tempString)
                         .thenAccept(response -> {
+                            //These next few lines created with help from ChatGPT
                             WeatherResponse weatherResponse = new Gson().fromJson(response, WeatherResponse.class);
                             List<String> times = weatherResponse.hourly.time;
                             List<Double> temperatures = weatherResponse.hourly.temperature2m;

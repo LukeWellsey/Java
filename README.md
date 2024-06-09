@@ -4,9 +4,8 @@ This project is a simple application to retrieve weather information from a REST
 
 The goal of this project is, initially, to run using hard coded values, retrieving hourly weather information for Lehi, Utah. I'll then expand the functinality to allow for user defined variables such as the location to retreive information for, and optional additional information such as wind speed, UV index, etc.
 
-{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running and a walkthrough of the code. Focus should be on sharing what you learned about the language syntax.}
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/TkiORru7E-I)
 
 # Development Environment
 
@@ -20,16 +19,9 @@ This project was developed with Java 21 using the Standard Java Library, on VSCo
 - [How To Call a REST API In Java - Simple Tutorial](https://youtu.be/9oq7Y8n1t00?si=SdAOGBoA2VVTImP_)
 - [How to get user input in Java](https://stackoverflow.com/questions/5287538/how-to-get-the-user-input-in-java)
 
-- [How To Call a REST API In Java - Simple Tutorial](https://youtu.be/9oq7Y8n1t00?si=SdAOGBoA2VVTImP_)
-
-
-
-
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-
-- Item 1
-- Item 2
-- Item 3
+- Option 1 needs to be configured to allow the user to set a location, whether through entering coordinates or typing a city name.
+- I would like to reformat the timestamps in the hourly temperature readout to provide the time in the users locale, rather than GMT.
+- Providing additional information, such as precipitation, would be very nice to add.
